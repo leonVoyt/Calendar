@@ -1,0 +1,28 @@
+/* src/App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.calendar-container {
+  padding: 20px;
+}
+
+.event-form {
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-form input {
+  display: block;
+  margin: 10px 0;
+}
+
+.event-form button {
+  margin-right: 10px;
+}
