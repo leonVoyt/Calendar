@@ -1,0 +1,90 @@
+.event-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 42px 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+}
+.event-form {
+  color: black;
+}
+.event-form h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #3174ad;
+  text-align: center;
+}
+
+.event-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #746e6e;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.event-form__btn--container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.event-form__btn--container button {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 5px;
+  margin: 0;
+}
+.event-form__btn--container .delete {
+  background-color: red;
+  color: white;
+}
+.event-form__btn--container .cancel {
+  background-color: yellow;
+  color: black;
+}
+.event-form__btn--container .save {
+  background-color: green;
+  color: black;
+}
+.event-form .chrome-picker {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.rbc-day-slot .rbc-event-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.4em;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+.rbc-event-content {
+  width: 100%;
+}
+
+.calendar-container .rbc-events-container {
+  margin-right: 0;
+}
+.rbc-timeslot-group {
+  min-height: 0;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/*  */
