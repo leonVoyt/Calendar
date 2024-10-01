@@ -20,7 +20,7 @@ const CalendarComponent = () => {
     setSelectedEvent({
       start: moment(slotInfo.start).startOf("day").toDate(),
       end: moment(slotInfo.start).endOf("day").toDate(),
-      title: "",
+      title: "Default event",
       color: "#B02222",
       allDay: false,
     });
