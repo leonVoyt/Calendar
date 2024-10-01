@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { ChromePicker } from "react-color";
 import moment from "moment";
 
-// Use default parameters for the props
 const EventForm = ({
   event = {},
   onSave = () => {},
@@ -27,13 +26,10 @@ const EventForm = ({
     setEnd(moment(event.end).format("YYYY-MM-DDTHH:mm"));
   }, [event]);
 
-  // Initialize start and end date states with event data or default to the current time
-
-  // Handle saving the event with the updated title, color, start, and end times
   const handleSave = () => {
     if (!title.trim()) {
       setError("Title cannot be empty");
-      return; // Prevent saving if the title is empty
+      return;
     }
     setError(null);
     const updatedEvent = {
@@ -80,7 +76,6 @@ const EventForm = ({
         placeholder="Event name (max 30 chars)"
       />
       {error && <div className="error">{error}</div>}{" "}
-      {/* Display error message */}
       <ChromePicker
         color={color}
         onChangeComplete={(newColor) => setColor(newColor.hex)}

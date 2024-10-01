@@ -58,12 +58,16 @@
   margin: 0 auto;
   margin-bottom: 15px;
 }
-
+.rbc-event,
+.rbc-day-slot .rbc-background-event {
+  padding: 5px;
+}
 .rbc-day-slot .rbc-event-content {
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  font-size: 1.4em;
+  font-size: 1.2em;
+  margin-top: 8px;
   font-weight: 700;
   flex-wrap: wrap;
 }

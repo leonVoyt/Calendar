@@ -1,5 +1,3 @@
-// src/App.js
-
 import React from "react";
 import CalendarComponent from "./components/CalendarComponent";
 import "./App.css";
